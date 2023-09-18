@@ -241,7 +241,9 @@ main {
 
 @media (min-width: 700px) {
     .purpel-background {
-        width: 250px;
+        width: 30%;
+        margin-left: -1.2rem;
+        height: 550px;
     }
     
 
@@ -264,6 +266,12 @@ main {
 
     .text h1 {
         font-weight: bolder;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 1rem;
+        left: calc(50% - 8rem);
     }
 
 
